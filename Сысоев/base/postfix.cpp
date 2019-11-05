@@ -3,7 +3,7 @@
 
 string TPostfix::ToPostfix()
 {
-	postfix = ' ';
+	postfix = "";
 	TStack<char> operation(MaxStackSize);
 	for (int i = 0; i < infix.length(); i++)
 	{
